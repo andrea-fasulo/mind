@@ -1,0 +1,14 @@
+Package: mind
+Type: Package
+Title: Multivariate model based INference for Domains (MIND)
+Version: 0.1.0
+Author: Michele D'Alò, Stefano Falorsi, Andrea Fasulo
+Maintainer: Andrea Fasulo <fasulo@istat.it>
+Depends: R (>= 3.5.0), data.table, MASS, lme4, qdap, Matrix
+Imports: dplyr,stats, JWileymisc
+Description: Allow users to produce estimates and MSE for multivariate varaibles using Linear Mixed Model. The package follows the approach of Datta, Day and Basawa (1999).
+License: EUPL
+Encoding: UTF-8
+NeedsCompilation: no
+BuildResaveData: best
+RoxygenNote: 7.1.1
